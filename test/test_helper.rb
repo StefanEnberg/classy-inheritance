@@ -46,6 +46,8 @@ class SetupTestTables < ActiveRecord::Migration
       t.string :city
       t.string :state_code
       t.string :postal_code
+      t.string :owner_type
+      t.integer :owner_id
 
       t.timestamps
     end
